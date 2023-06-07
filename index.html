@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Saira+Condensed:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="icon" type="image/png" sizes="32x32" href=""> <!--icono de la pagina-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <title>Fabulous Shop | Calculadora de ganancias</title>
+        <script src="./assets/js/script.js"></script>
+      
+    </head>
+    <body>
+        <div class="container animate__animated animate__bounceIn">
+
+            <div class="textbox animate__animated animate__backInUp">
+
+                <h1 class="title animate__animated animate__pulse">Fabulous shop</h1>
+                <h3 class="subtitle">(divicion de ingresos)</h3>
+
+                <label for="pv" class="precio__venta">precio de venta</label>
+                <input class="input" type="number" name="pv" id="pv" >
+
+                <label for="pc" class="precio__compra">precio de compra</label>
+                <input class="input" type="number" name="pc" id="pc">
+
+                <a class="button" href="#" onclick="calcular()">Calcular</a> 
+
+                <textarea class="resultado" name="resultado" id="resultado" cols="30" rows="10" readonly disabled></textarea>
+            
+            </div>
+   
+            
+        </div>
+
+        
+    <footer>
+        <div class="attribution"> Coded by <a target="_blank" href="https://www.instagram.com/ing_av_/">IngAV</a>.
+        </div>
+    </footer>
+
+    </body>
+</html>
